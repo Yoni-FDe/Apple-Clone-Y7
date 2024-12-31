@@ -9,7 +9,7 @@ const ProductPage = (props) => {
   // console.log(productID);
   //fetch data from backend function
   const fetchData = () => {
-    fetch("http://localhost:3004/iphone")
+    fetch("http://193.203.166.204:3004/iphone")
       .then((res) => res.json())
       .then((data) => {
         const productList = data;
