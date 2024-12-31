@@ -32,7 +32,7 @@ const App = () => {
           <Route path="support" element={<Support />} />
           <Route path="cart" element={<Cart />} />
           <Route path="*" element={<Four04 />} />
-          <Route path="iphone" element={<Iphone />} />
+          {/* <Route path="iphone" element={<Iphone />} /> */}
           <Route path="iphone/:pID" element={<ProductPage />} />
         </Route>
       </Routes>
